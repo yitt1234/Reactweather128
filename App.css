@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;700&display=swap');
+
+.time{
+    text-align:center;
+}
+
+*{
+
+    
+background-color:#696774;
+font-family: 'Noto Sans', sans-serif;
+ 
+}
+input::placeholder {
+    color: rgb(208, 193, 193); /* Set the desired placeholder color */
+  }
+input{
+    border:none;
+    background-color:transparent;
+    color:rgb(208, 193, 193);
+    outline:none;
+    border-bottom: 1px solid gray;
+    height:15px;
+    
+}
+
+button{
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+
+.weathershow{
+    background-color:gray;
+    opacity: 0.5;
+    width:350px;
+    height:600px;
+    text-align:center;
+    color:white;
+
+}
+.place{
+    background-color:transparent;
+}
+p{
+    background-color:transparent;
+}
+.p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon2{
+    background-color: transparent;
+    margin-left:5px;
+}
+.icon{
+    background-color:transparent;
+    margin-top:1px;
+}
+.icon1{
+    background-color:transparent;
+    margin-left:5px;
+}
+
+.tempe{
+    font-size: 25px;
+}
+.icon3{
+    background-color:transparent;
+    margin-left:5px;
+}
+.p3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
